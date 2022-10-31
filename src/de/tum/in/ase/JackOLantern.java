@@ -65,6 +65,6 @@ public class JackOLantern {
         Candle c = new Candle(4.5, 13);
         Ghost g = new Ghost("hot", 4);
         JackOLantern J = new JackOLantern("BadBoy", p, c, g);
-        double jacksWeight = J.getLanternWeight();
+
     }
 }
