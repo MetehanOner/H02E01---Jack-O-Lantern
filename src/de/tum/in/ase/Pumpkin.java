@@ -36,4 +36,12 @@ public class Pumpkin {
     public String getFace() {
         return face;
     }
+
+    public String getType() {
+        return type;
+    }
+
+    public boolean isSeeds() {
+        return seeds;
+    }
 }

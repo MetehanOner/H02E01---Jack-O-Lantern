@@ -9,7 +9,7 @@ public class JackOLantern {
 
     //TODO write constructor with parameters
     public JackOLantern(String name, Pumpkin pumpkin, Candle candle, Ghost ghost){
-        this.name = name;
+        setName(name);
         this.pumpkin = pumpkin;
         this.candle = candle;
         this.ghost = ghost;
@@ -21,6 +21,10 @@ public class JackOLantern {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Pumpkin getPumpkin() {
