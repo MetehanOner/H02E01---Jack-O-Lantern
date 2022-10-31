@@ -9,7 +9,7 @@ public class Pumpkin {
 
     public Pumpkin(String type, double weight) {
         setType(type);
-        setWeight(weight);
+        this.weight = weight;
     }
 
     public void deseed() {
