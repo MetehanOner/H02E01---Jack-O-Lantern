@@ -10,9 +10,9 @@ public class JackOLantern {
     //TODO write constructor with parameters
     public JackOLantern(String name, Pumpkin pumpkin, Candle candle, Ghost ghost){
         setName(name);
-        this.pumpkin = pumpkin;
-        this.candle = candle;
-        this.ghost = ghost;
+        setPumpkin(pumpkin);
+        setCandle(candle);
+        setGhost(ghost);
 
         pumpkin.deseed();
         pumpkin.carveFace(ghost.getTemper());
