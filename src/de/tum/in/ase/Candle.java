@@ -14,7 +14,7 @@ public class Candle {
     }
 
     public double calculateWeight(){
-        return getHeight()*(getRadius()*getRadius()*Math.PI);
+        return getHeight()*(getRadius()*getRadius()*(3.14));
     }
 
     public void setHeight(double height) {
