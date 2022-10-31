@@ -32,4 +32,9 @@ public class Candle {
     public double getRadius() {
         return radius;
     }
+
+    public boolean isBurning() {
+        return burning;
+    }
+
 }

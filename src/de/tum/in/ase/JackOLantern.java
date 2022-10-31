@@ -19,6 +19,9 @@ public class JackOLantern {
         candle.light();
     }
 
+    public String getName() {
+        return name;
+    }
 
     public double getLanternWeight() {
         //TODO calculate the total weight of your Jack O'Lantern

@@ -32,4 +32,8 @@ public class Pumpkin {
     public void setType(String type){
         this.type = type;
     }
+
+    public String getFace() {
+        return face;
+    }
 }
