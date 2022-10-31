@@ -2,7 +2,7 @@ package de.tum.in.ase;
 
 public class Pumpkin {
 
-    public double weight;
+    private double weight;
     public String face = "";
     public String type;
     public boolean seeds = true;
