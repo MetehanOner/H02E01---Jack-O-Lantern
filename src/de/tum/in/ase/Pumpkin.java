@@ -14,7 +14,7 @@ public class Pumpkin {
 
     public void deseed() {
         this.seeds = false;
-        weight = weight * 0.7;
+        weight = weight * 0.3;
     }
 
     public void carveFace(String temper) {
