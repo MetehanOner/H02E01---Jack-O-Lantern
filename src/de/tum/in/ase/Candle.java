@@ -4,7 +4,7 @@ public class Candle {
     double height, radius;
     boolean burning;
 
-    Candle(double radius, double height){
+    public Candle(double radius, double height){
         setRadius(radius);
         setHeight(height);
     }

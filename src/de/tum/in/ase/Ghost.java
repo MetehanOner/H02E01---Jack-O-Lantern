@@ -1,11 +1,11 @@
 package de.tum.in.ase;
 
-public class ghost {
+public class Ghost {
 
     String temper;
     int age;
 
-    ghost(String temper, int age){
+    public Ghost(String temper, int age){
         setTemper(temper);
         setAge(age);
     }

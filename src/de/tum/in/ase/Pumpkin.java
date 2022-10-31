@@ -7,7 +7,7 @@ public class Pumpkin {
     String type;
     boolean seeds = true;
 
-    Pumpkin(String type, double weight) {
+    public Pumpkin(String type, double weight) {
         setType(type);
         setWeight(weight);
     }
