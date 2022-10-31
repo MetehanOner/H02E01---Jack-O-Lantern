@@ -14,9 +14,9 @@ public class JackOLantern {
         setCandle(candle);
         setGhost(ghost);
 
-        pumpkin.deseed();
-        pumpkin.carveFace(ghost.getTemper());
-        candle.light();
+        getPumpkin().deseed();
+        getPumpkin().carveFace(ghost.getTemper());
+        getCandle().light();
     }
 
     public String getName() {
@@ -53,7 +53,7 @@ public class JackOLantern {
 
     public double getLanternWeight() {
         //TODO calculate the total weight of your Jack O'Lantern
-        return pumpkin.getWeight() + candle.calculateWeight();
+        return getPumpkin().getWeight() + getCandle().calculateWeight();
     }
 
 
