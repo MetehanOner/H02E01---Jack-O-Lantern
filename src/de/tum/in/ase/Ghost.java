@@ -6,16 +6,19 @@ public class Ghost {
     int age;
 
     Ghost(String temper, int age){
-        this.temper = temper;
+        setTemper(temper);
+        setAge(age);
+    }
+
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public int getAge() {
-        return age;
+    public void setTemper(String temper) {
+        this.temper = temper;
     }
 
     public String getTemper(){
-
         return temper;
     }
 }

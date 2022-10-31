@@ -8,8 +8,8 @@ public class Pumpkin {
     boolean seeds = true;
 
     Pumpkin(String type, double weight) {
-        this.type = type;
-        this.weight = weight;
+        setType(type);
+        setWeight(weight);
     }
 
     public void deseed() {
@@ -25,15 +25,11 @@ public class Pumpkin {
         return weight;
     }
 
-    public String getFace() {
-        return face;
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 
-    public String getType() {
-        return type;
-    }
-
-    public boolean isSeeds() {
-        return seeds;
+    public void setType(String type){
+        this.type = type;
     }
 }

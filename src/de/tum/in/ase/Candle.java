@@ -5,8 +5,8 @@ public class Candle {
     boolean burning;
 
     Candle(double radius, double height){
-        this.radius = radius;
-        this.height = height;
+        setRadius(radius);
+        setHeight(height);
     }
 
     public void light(){
@@ -14,7 +14,15 @@ public class Candle {
     }
 
     public double calculateWeight(){
-        return height*(radius*radius*Math.PI);
+        return getHeight()*(getRadius()*getRadius()*Math.PI);
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 
     public double getHeight(){
