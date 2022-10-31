@@ -11,7 +11,7 @@ public class Candle {
     }
 
     public void light(){
-        isBurning();
+        setBurning(true);
     }
 
     public double calculateWeight(){
@@ -35,7 +35,7 @@ public class Candle {
     }
 
     public boolean isBurning() {
-        return burning = true;
+        return burning;
     }
 
     public void setBurning(boolean burning) {
