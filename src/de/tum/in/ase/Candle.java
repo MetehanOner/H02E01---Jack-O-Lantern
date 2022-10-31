@@ -3,7 +3,7 @@ package de.tum.in.ase;
 public class Candle {
     double height;
     double radius;
-    boolean burning;
+    boolean burning = false;
 
     public Candle(double radius, double height){
         setRadius(radius);
@@ -11,11 +11,11 @@ public class Candle {
     }
 
     public void light(){
-        this.burning = true;
+        isBurning();
     }
 
     public double calculateWeight(){
-        return getHeight()*(getRadius()*getRadius()*(3.14));
+        return (getHeight()*(getRadius()*getRadius()*(3.14)))*(0.95);
     }
 
     public void setHeight(double height) {
@@ -35,7 +35,10 @@ public class Candle {
     }
 
     public boolean isBurning() {
-        return burning;
+        return burning = true;
     }
 
+    public void setBurning(boolean burning) {
+        this.burning = burning;
+    }
 }
