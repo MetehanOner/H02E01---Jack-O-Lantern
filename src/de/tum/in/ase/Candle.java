@@ -1,7 +1,8 @@
 package de.tum.in.ase;
 
 public class Candle {
-    double height, radius;
+    double height;
+    double radius;
     boolean burning;
 
     public Candle(double radius, double height){
