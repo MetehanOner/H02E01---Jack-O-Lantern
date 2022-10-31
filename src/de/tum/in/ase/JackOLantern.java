@@ -27,6 +27,18 @@ public class JackOLantern {
         this.name = name;
     }
 
+    public void setCandle(Candle candle) {
+        this.candle = candle;
+    }
+
+    public void setGhost(Ghost ghost) {
+        this.ghost = ghost;
+    }
+
+    public void setPumpkin(Pumpkin pumpkin) {
+        this.pumpkin = pumpkin;
+    }
+
     public Pumpkin getPumpkin() {
         return pumpkin;
     }
