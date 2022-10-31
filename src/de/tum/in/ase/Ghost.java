@@ -3,7 +3,7 @@ package de.tum.in.ase;
 public class Ghost {
 
     private String temper;
-    public int age;
+    private int age;
 
     public Ghost(String temper, int age){
         setTemper(temper);

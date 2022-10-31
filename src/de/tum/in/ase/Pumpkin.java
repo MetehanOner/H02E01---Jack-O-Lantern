@@ -3,9 +3,9 @@ package de.tum.in.ase;
 public class Pumpkin {
 
     private double weight;
-    public String face = "";
-    public String type;
-    public boolean seeds = true;
+    private String face = "";
+    private String type;
+    private boolean seeds = true;
 
     public Pumpkin(String type, double weight) {
         setType(type);

@@ -2,10 +2,10 @@ package de.tum.in.ase;
 
 public class JackOLantern {
     //TODO construct correct attributes
-    public String name;
-    public Pumpkin pumpkin;
-    public Candle candle;
-    public Ghost ghost;
+    private String name;
+    private Pumpkin pumpkin;
+    private Candle candle;
+    private Ghost ghost;
 
     //TODO write constructor with parameters
     public JackOLantern(String name, Pumpkin pumpkin, Candle candle, Ghost ghost){
