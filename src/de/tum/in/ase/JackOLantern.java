@@ -5,10 +5,10 @@ public class JackOLantern {
     String name;
     Pumpkin pumpkin;
     Candle candle;
-    Ghost ghost;
+    de.tum.in.ase.ghost ghost;
 
     //TODO write constructor with parameters
-    JackOLantern(String name, Pumpkin pumpkin, Candle candle, Ghost ghost){
+    JackOLantern(String name, Pumpkin pumpkin, Candle candle, de.tum.in.ase.ghost ghost){
         this.name = name;
         this.pumpkin = pumpkin;
         this.candle = candle;
@@ -32,7 +32,7 @@ public class JackOLantern {
        */
         Pumpkin p = new Pumpkin("bulky", 35.50);
         Candle c = new Candle(4.5, 13);
-        Ghost g = new Ghost("hot", 4);
+        de.tum.in.ase.ghost g = new ghost("hot", 4);
         JackOLantern J = new JackOLantern("BadBoy", p, c, g);
         double jacksWeight = J.getLanternWeight();
     }
