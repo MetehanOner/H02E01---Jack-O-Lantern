@@ -64,7 +64,7 @@ public class JackOLantern {
         Pumpkin p = new Pumpkin("bulky", 35.50);
         Candle c = new Candle(4.5, 13);
         Ghost g = new Ghost("hot", 4);
-        JackOLantern J = new JackOLantern("BadBoy", p, c, g);
+        JackOLantern Jack = new JackOLantern("BadBoy", p, c, g);
 
     }
 }
