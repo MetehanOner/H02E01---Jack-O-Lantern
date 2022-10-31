@@ -21,4 +21,8 @@ public class Ghost {
     public String getTemper(){
         return temper;
     }
+
+    public int getAge() {
+        return age;
+    }
 }

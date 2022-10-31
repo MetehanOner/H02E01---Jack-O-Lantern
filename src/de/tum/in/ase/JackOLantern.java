@@ -23,6 +23,18 @@ public class JackOLantern {
         return name;
     }
 
+    public Pumpkin getPumpkin() {
+        return pumpkin;
+    }
+
+    public Candle getCandle() {
+        return candle;
+    }
+
+    public Ghost getGhost() {
+        return ghost;
+    }
+
     public double getLanternWeight() {
         //TODO calculate the total weight of your Jack O'Lantern
         return pumpkin.getWeight() + candle.calculateWeight();
